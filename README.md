@@ -1,5 +1,14 @@
 # Laravel Feature Flag
 
+This package allows for easy and efficient feature flag managment in Laravel. Features include:
+
+* Definition of feature toggles per environment (e.g. local, dev, stage, production).
+* Managable way to keep flags in source control without becomming overwhelming.
+* Creation of a default setting per feature that will be used if the environment specific setting is not found.
+* Ability to easily request the status of a feature and automatically get the correct setting based on the current environment the application is running on.
+* Ability to tag features as eligable for Javascript export.
+* A helper method to easily export Javascript eligable feature flags and pass them along to your front-end framework. 
+
 ## Installation
 
 Add the package to your project:
