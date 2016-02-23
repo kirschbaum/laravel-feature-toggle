@@ -4,7 +4,7 @@
 
 Add the package to your project:
 
-```php
+```
 composer require kirschbaum/laravel-feature-flag
 ```
 
@@ -34,7 +34,7 @@ This package also comes with a facade, making it easy to retrieve the correct fl
 
 Publish the config file using the arisan command:
 
-```php
+```
 php artisan vendor:publish --provider="Kirschbaum\LaravelFeatureFlag\ServiceProvider"
 ```
 
