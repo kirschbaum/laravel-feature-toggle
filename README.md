@@ -10,7 +10,7 @@ composer require kirschbaum/laravel-feature-flag
 
 Add the following service provider:
 
-```
+```php
 // config/app.php
 
 'providers' => [
