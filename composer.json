@@ -1,0 +1,25 @@
+{
+  "name": "kirschbaum/laravel-feature-flag",
+  "description": "Simple feature toggles for Laravel PHP and Javascript",
+  "keywords": ["feature-flags", "feature-toggles", "toggles"],
+  "authors": [
+    {
+      "name": "Nathan Kirschbaum",
+      "email": "nathan.kirschbaum@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/config": "~5.0",
+    "illuminate/support": "~5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kirschbaum\\LaravelFeatureFlag\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
