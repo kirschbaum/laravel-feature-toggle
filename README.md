@@ -1,4 +1,4 @@
-# Laravel Feature Flag
+# Laravel Feature Toggle
 
 This package allows for easy and efficient feature flag managment in Laravel. Features include:
 
