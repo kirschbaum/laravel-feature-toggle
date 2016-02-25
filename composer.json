@@ -1,5 +1,5 @@
 {
-  "name": "kirschbaum/laravel-feature-flag",
+  "name": "kirschbaum/laravel-feature-toggle",
   "description": "Simple feature toggles for Laravel PHP and Javascript",
   "keywords": ["feature-flags", "feature-toggles", "toggles"],
   "authors": [
